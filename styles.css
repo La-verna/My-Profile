@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: inherit;
+  color:aliceblue;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(1, 6, 49, 0.932);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: rgba(4, 4, 192, 0.603);
+  padding: 20px;
+}
+
+nav {
+  margin-left: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: aliceblue;
+  padding: 5px 10px;
+  transition: background-color 0.3s; /* Transisi saat hover */
+}
+
+nav ul li a.active {
+  background-color: #0056b3; /* Warna saat aktif */
+  color: silver;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  background-color: blue; /* Warna saat hover */
+  color: white;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  margin: 20px;
+}
+
+.banner-foto {
+  width: 70%;
+  margin-right: 20px;
+}
+.foto-banner {
+  width: 100%;
+  height: auto;
+}  
+.content {
+  width: 30%;
+  font-family: initial;
+  color: blanchedalmond;
+}
+
+.profile-banner {
+  background-image: url('path/to/your/https://res.cloudinary.com/dualj00zf/image/upload/v1730781877/ai-generated-8738964_1280_soqcsi.png');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  color: aliceblue;
+  text-shadow: rgb(247, 247, 247);
+}
+
+.profile-banner h2 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  color: blanchedalmond;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+h2{
+  color: #0056b3;
+  margin-top: 30px;
+  font-size: 1.8em;
+}
+
+p {
+  line-height: 1.6;
+  margin: 10px 0;
+  font-size: 1.1em;
+}
+
+img {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px;
+}
+
+li {
+  background: #0056b3;
+  color: aliceblue;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 10px;
+  background-color: #e8491d;
+  color: aliceblue;
+
+}
+
+h2 {
+  margin: 20px 0;
+  color: cornflowerblue;
+}
+
+p {
+  margin: 10px 0;
+}
+
+.about-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+form {
+  background: darkslateblue;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: rgba(4, 4, 192, 0.603);
+}
+
+form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(114, 95, 240);
+  border-radius: 4px;
+}
+
+form button {
+  background: black;
+  color: floralwhite;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+form button:hover {
+  background: darkblue;
+}
+
+.message-success {
+  color: mediumblue;
+  font-weight: bold;
+}
+
+.message-error {
+  color:darkred;
+  font-weight: bold;
+}
+
+section {
+  margin: 20px 0;
+  padding: 20px;
+  background: darkred;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgb(247, 247, 247);
+}
+
+.project-card {
+  background: brown;
+  border: 1px solid #0056b3;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+  color: aliceblue;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  color: #666;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: darkred;
+  color: aliceblue;
+  position: relative;
+  bottom: 0%;
+  width: 100%;
+}
+
+.button-back{
+  background: #e8491d;
+  color: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button-back {
+  background: #35424a;
+}
